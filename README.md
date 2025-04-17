@@ -1,4 +1,4 @@
-# 📝 ToDo List API – Fastify + Docker + PostgreSQL + Prisma
+# 📝 ToDo List API – Fastify
 
 API RESTful para gerenciamento de tarefas, desenvolvida com [Fastify](https://www.fastify.io/), usando **Prisma ORM** com **PostgreSQL**, e containerizada com **Docker** para facilitar o desenvolvimento e a implantação.
 
