@@ -27,13 +27,15 @@ export async function getById(id: string) {
 // Função  para criar uma nova tarefa
 export async function createTasks(task: TaskCreated) {
   try {
-    const result = prisma.task.create({
+    const result = await prisma.task.create({
       data: {
         title: task.title,
         description: task.description,
         status: task.status,
       },
     });
+
+    return result;
   } catch (error) {
     throw new Error("Erro ao criar Tarefa");
   }
