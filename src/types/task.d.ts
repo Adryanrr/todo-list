@@ -1,5 +1,5 @@
 export interface TaskCreated {
   title: string;
-  description: String;
-  status: String;
+  description: string;
+  status: string;
 }
